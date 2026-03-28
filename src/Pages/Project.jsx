@@ -6,7 +6,7 @@ const Project = () => {
     {
       img: "Shop-Page-copy.png",
       title: "Nandini Medical Store",
-      desc: "Built a MERN-based medical e-commerce application...",
+      desc: "Developed a full-stack medical e-commerce application with separate user and admin panels, including product management, cart system, and Cloudinary-based image uploads.",
       tech: ["React", "Redux", "Node", "Express", "MongoDB"],
       live: "https://nandini-medical.vercel.app/",
       github:
@@ -15,16 +15,16 @@ const Project = () => {
     {
       img: "weather.png",
       title: "Weather Project",
-      desc: "A responsive web application...",
-      tech: ["HTML","CSS","Javascript", "React js"],
+      desc: "Developed a responsive weather application using React that fetches real-time weather data from API, displaying temperature, location, and weather conditions with a clean UI.",
+      tech: ["HTML", "CSS", "Javascript", "React js"],
       live: "https://weather10-neon.vercel.app/",
       github: "https://github.com/Anuragmishra880/Weather-App",
     },
     {
       img: "portfolio.png",
       title: "Portfolio Project",
-      desc: "A responsive web application...",
-      tech: ["HTML","CSS","Javascript", "React js" ,"Email JS"],
+      desc: "Built a modern and responsive portfolio using React, showcasing projects with smooth animations, contact form integration (EmailJS), and downloadable resume.",
+      tech: ["HTML", "CSS", "Javascript", "React js", "Email JS"],
       live: "https://anurag-portfolio-chi-six.vercel.app/",
       github: "https://github.com/Anuragmishra880/Portfolio-Website",
     },
