@@ -1,0 +1,10 @@
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: gray;
+  border-bottom: 2px solid gray;
+}
+footer a:hover {
+  color: #3b82f6;
+  transition: 0.3s;
+}

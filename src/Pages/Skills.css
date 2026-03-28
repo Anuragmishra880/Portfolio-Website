@@ -1,0 +1,105 @@
+.skills-section {
+  padding: 80px 20px;
+  background: #0f172a;
+  color: white;
+}
+
+/* Main Heading */
+.skills-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  text-align: center;
+  position: relative;
+}
+
+.skills-section h2::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #38bdf8;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 10px;
+}
+
+/* Section title */
+.skills-section h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 40px 0 25px;
+  text-align: center;
+  color: #1642d3;
+}
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px 40px; /* row gap / column gap */
+  max-width: 900px;
+  margin: auto;
+}
+/* Skill card 🔥 */
+.skill-item {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 25px 15px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Hover glow effect */
+.skill-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+  border: 1px solid #38bdf8;
+}
+
+/* Image */
+.skill-item img {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+/* Image hover zoom */
+.skill-item:hover img {
+  transform: scale(1.2);
+}
+
+/* Text */
+.skill-item p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+
+
+/* Mobile view (scrollable row) */
+@media (max-width: 768px) {
+  .skills-grid {
+    flex-wrap: nowrap;         /* wrap band */
+    overflow-x: auto;          /* scroll enable */
+    justify-content: flex-start;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+
+  .skills-grid::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  .skills-grid::-webkit-scrollbar-thumb {
+    background: #38bdf8;
+    border-radius: 10px;
+  }
+
+  .skill-item {
+    min-width: 80px;           /* fixed width */
+    flex: 0 0 auto;            /* shrink na ho */
+  }
+}

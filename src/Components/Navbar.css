@@ -1,0 +1,21 @@
+/* Base link */
+.nav-link {
+  color: #dfd4d4;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+/* Hover effect (light background) */
+.nav-link:hover {
+  background-color: rgba(253, 13, 49, 0.08);
+  color: #9e1126;
+}
+
+/* Active link */
+.nav-link.active {
+  background-color: rgba(253, 13, 49, 0.12);
+  color: #fd0d31 !important;
+  font-weight: 600;
+}
