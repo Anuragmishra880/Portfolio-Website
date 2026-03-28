@@ -7,7 +7,7 @@ const Project = () => {
       img: "Shop-Page-copy.png",
       title: "Nandini Medical Store",
       desc: "Built a MERN-based medical e-commerce application...",
-      tech: ["HTML", "CSS", "Bootstrap", "React", "Redux"],
+      tech: ["React", "Redux", "Node", "Express", "MongoDB"],
       live: "https://nandini-medical.vercel.app/",
       github:
         "https://github.com/Anuragmishra880/Nandini-medical-User-frontend",
@@ -16,7 +16,7 @@ const Project = () => {
       img: "weather.png",
       title: "Weather Project",
       desc: "A responsive web application...",
-      tech: ["Javascript", "React js"],
+      tech: ["HTML","CSS","Javascript", "React js"],
       live: "https://weather10-neon.vercel.app/",
       github: "https://github.com/Anuragmishra880/Weather-App",
     },
@@ -24,9 +24,9 @@ const Project = () => {
       img: "portfolio.png",
       title: "Portfolio Project",
       desc: "A responsive web application...",
-      tech: ["Javascript", "React js"],
-      live: "#",
-      github: "#",
+      tech: ["HTML","CSS","Javascript", "React js" ,"Email JS"],
+      live: "https://anurag-portfolio-chi-six.vercel.app/",
+      github: "https://github.com/Anuragmishra880/Portfolio-Website",
     },
   ];
   return (
@@ -44,8 +44,6 @@ const Project = () => {
             {...project}
           ></ProjectCard>
         ))}
-
-       
       </div>
     </section>
   );
